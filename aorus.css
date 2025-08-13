@@ -24,30 +24,24 @@ a {
 .logo{
     background-image: url("sources/aorus-logo.png" );
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    width: 360px;
-    height: 60px;
+    width: 140px;
+    height: 50px;
 }
-.navleft{
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.navlinks{
-    display: flex;
-    flex-direction: row;
+#navleft{
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
 }
 ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-}
-main{
-    width: 100vw;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    justify-content: space-around;
+    height: 50px;
+}
+.unli:hover{
+    border-bottom: 2px solid #b94a03;
 }
