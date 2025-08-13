@@ -43,5 +43,75 @@ ul{
     height: 50px;
 }
 .unli:hover{
-    border-bottom: 2px solid #b94a03;
+    border-bottom: 3px solid #b94a03;
+}
+#navright{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+
+}
+#search{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+#myaorus{
+    width :115px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0 3px 0px;
+    line-height: 50px;
+}
+.hero{
+    background-image: url("https://www.pcworld.com/wp-content/uploads/2025/04/pcw08_Asus-Gaming-PC.jpg?resize=1024%2C576&quality=50&strip=all");
+    height: 600px;
+    width: 100vw;
+    background-size: auto 100%;
+    z-index: 1;
+}
+#hero-head{
+    color: white;
+    font-size: 50px;
+    text-align: start;
+    padding-left: 5px;
+}
+#hero-de{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 5px;
+}
+.shop-now{
+    background-color: #b94a03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.product{
+    background-color: #0b0b0c;
+    color: white;
+    height: 300px;
+    width: 100vw;
+
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+
 }
