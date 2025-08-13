@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color : white; */
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav{
+    background-color: #1c1c1c;
+    color: #e3e3e3;
+    padding: 5px;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background-image: url("sources/aorus-logo.png" );
+    background-size: cover;
+    background-position: center;
+    width: 360px;
+    height: 60px;
+}
+.navleft{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+main{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
