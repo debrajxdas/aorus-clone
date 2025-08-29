@@ -103,7 +103,7 @@ ul{
     display: flex;
     flex-direction: column;
     background-color: #0b0b0c;
-    color: white;
+    color: #a0a0a0;
     height: 350px;
     width: 100%;
     text-align: center;
@@ -157,4 +157,31 @@ ul{
     border-radius: 5px;
     background-size: cover;
     background-position: center;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    color: #a0a0a0;
+    background-color: #0b0b0c;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.subfeatures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ailogo, #gcclogo{
+    height: 33px;
+    width: 33px;
+    /* background-color: aqua; */
+    margin-right: 10px;
+    font-size: 33px;
+}
+#ailogo,#gcclogo>*{
+    color: white;
+}
+.subfeatures>h3{
+    font-size: 22px;
 }
