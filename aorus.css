@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* background-color: black; */
     /* color : white; */
 }
+
 body {
     font-family: 'Arial', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
-.nav{
+
+.nav {
     background-color: #1c1c1c;
     color: #e3e3e3;
     padding: 5px;
@@ -21,20 +24,23 @@ a {
     display: flex;
     justify-content: space-around;
 }
-.logo{
-    background-image: url("sources/aorus-logo.png" );
+
+.logo {
+    background-image: url("sources/aorus-logo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 140px;
     height: 50px;
 }
-#navleft{
+
+#navleft {
     height: 50px;
     width: 450px;
     font-size: 20px;
 }
-ul{
+
+ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -42,10 +48,12 @@ ul{
     justify-content: space-around;
     height: 50px;
 }
-.unli:hover{
+
+.unli:hover {
     border-bottom: 3px solid #b94a03;
 }
-#navright{
+
+#navright {
     height: 50px;
     width: 300px;
     display: flex;
@@ -54,13 +62,15 @@ ul{
     font-size: 20px;
 
 }
-#search{
+
+#search {
     width: 30px;
     height: 30px;
     line-height: 30px;
 }
-#myaorus{
-    width :115px;
+
+#myaorus {
+    width: 115px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -68,26 +78,30 @@ ul{
     padding: 3px 0 3px 0px;
     line-height: 50px;
 }
-.hero{
+
+.hero {
     background-image: url("https://www.pcworld.com/wp-content/uploads/2025/04/pcw08_Asus-Gaming-PC.jpg?resize=1024%2C576&quality=50&strip=all");
     height: 600px;
     width: 100%;
     background-size: auto 100%;
     z-index: 1;
 }
-#hero-head{
+
+#hero-head {
     color: white;
     font-size: 50px;
     text-align: start;
     padding-left: 5px;
 }
-#hero-de{
+
+#hero-de {
     color: white;
     font-size: 20px;
     text-align: start;
     padding-left: 5px;
 }
-.shop-now{
+
+.shop-now {
     background-color: #b94a03;
     color: white;
     padding: 10px 20px;
@@ -99,18 +113,20 @@ ul{
     top: 20px;
     left: 20px;
 }
-.product{
+
+.product {
     display: flex;
     flex-direction: column;
     background-color: #0b0b0c;
     color: #a0a0a0;
-    height: 350px;
+    height: 400px;
     width: 100%;
     text-align: center;
     justify-content: space-evenly;
 
 }
-.product-item{
+
+.product-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,73 +135,89 @@ ul{
     height: 250px;
 
 }
-.product-list{
+
+.product-list {
     display: flex;
     justify-content: space-evenly;
 
 }
-.mid{
+
+.mid {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.product>h2{
+
+.product>h2 {
     font-size: 40px;
     font-weight: lighter;
 }
-#prodimg1{
+
+#prodimg1 {
     height: 150px;
     width: 200px;
     background-image: url("https://jarrods.tech/wp-content/uploads/2023/12/asus-rog-zephyrus-m16-2023-gaming-laptop-1024x576.jpg");
 }
-#prodimg2{
+
+#prodimg2 {
     height: 150px;
     width: 200px;
     background-image: url("https://www.asus.com/media/Odin/Websites/global/Tab/20240326013834.jpg");
 }
-#prodimg3{
+
+#prodimg3 {
     height: 150px;
     width: 200px;
     background-image: url("https://assetsio.gnwcdn.com/g502x_f9QuuM8.jpeg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp");
 }
-#prodimg4{
+
+#prodimg4 {
     height: 150px;
     width: 200px;
     background-image: url("https://s1.q4cdn.com/104539020/files/doc_multimedia/2024/6/1008542787/G515_Cinderella_Product_Key_Visual_16x9-D.jpg");
 }
-.product-item>div{
+
+.product-item>div {
     border-radius: 5px;
     background-size: cover;
     background-position: center;
 }
-.features{
+
+.features {
     display: flex;
     justify-content: space-evenly;
     color: #a0a0a0;
     background-color: #0b0b0c;
-    height: 100px;
+    height: 150px;
     width: 100%;
     align-items: center;
 }
-.subfeatures{
+
+.subfeatures {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#ailogo, #gcclogo{
+
+#ailogo,
+#gcclogo {
     height: 33px;
     width: 33px;
     /* background-color: aqua; */
     margin-right: 10px;
     font-size: 33px;
 }
-#ailogo,#gcclogo>*{
+
+#ailogo,
+#gcclogo>* {
     color: white;
 }
-.subfeatures>h3{
+
+.subfeatures>h3 {
     font-size: 22px;
 }
-.whatsnew{
+
+.whatsnew {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -193,29 +225,33 @@ ul{
     background-color: #0b0b0c;
     color: white;
     width: 100%;
-    height: 755px;
+    height: 800px;
 }
-.whatsnew>h2{
+
+.whatsnew>h2 {
     font-size: 40px;
     text-transform: uppercase;
-    height:50px;
-    padding-top:10px;
+    height: 50px;
+    padding-top: 10px;
 }
-.new-item-container1{
+
+.new-item-container1 {
     height: 410px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     padding: 0 10px;
 }
-.new-item-container2{
+
+.new-item-container2 {
     height: 180px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     padding: 0 10px;
 }
-.inside-new-item-container1{
+
+.inside-new-item-container1 {
     background-color: #2c2c2c;
     height: 410px;
     width: 390px;
@@ -224,32 +260,37 @@ ul{
     justify-content: space-evenly;
     padding: 0 10px;
 }
-.newimg1{
+
+.newimg1 {
     height: 220px;
     background-image: url("https://global.aorus.com/upload/Product/F_202503271417198cfk87.JPG");
     width: 370px;
     background-size: cover;
     background-position: center;
 }
-.newimg2{
+
+.newimg2 {
     height: 220px;
     background-image: url("https://global.aorus.com/upload/Product/F_20241220134920uGA38E.JPG");
     width: 370px;
     background-size: cover;
     background-position: center;
 }
-.newimg3{
+
+.newimg3 {
     height: 220px;
     background-image: url("https://global.aorus.com/upload/Product/F_20241209151292yTX980.JPG");
     width: 370px;
     background-size: cover;
     background-position: center;
 }
-.inside-new-item-container1>h5{
+
+.inside-new-item-container1>h5 {
     font-size: 20px;
     font-weight: lighter;
 }
-.inside-new-item-container2{
+
+.inside-new-item-container2 {
     width: 585px;
     height: 180px;
     background-color: #2c2c2c;
@@ -257,27 +298,130 @@ ul{
     justify-content: space-between;
     padding: 10px 10px;
 }
-.new-content>h5{
+
+.new-content>h5 {
     font-size: 18px;
 }
-.new-content{
+
+.new-content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 350px;
 }
-.newimg4{
+
+.newimg4 {
     width: 200px;
     background-image: url("https://global.aorus.com/upload/Product/F_20241202142195oumEhJ.JPG");
     background-size: cover;
     background-position: center;
 }
-.newimg5{
+
+.newimg5 {
     width: 200px;
     background-image: url("https://global.aorus.com/upload/Product/F_20241128120547b9krwE.JPG");
     background-size: cover;
     background-position: center;
 }
-.new-content>h5{
+
+.new-content>h5 {
+    font-weight: lighter;
+}
+
+.service{
+    background-color: #0b0b0c;
+    color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    height: 300px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.service-item{
+    width: 400px;
+    height: 90px;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service>h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#servimg1{
+    height: 80px;
+    width: 80px;
+    font-size: 75px;
+    text-align: center;
+    color: #b94a03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#servimg2{
+    height: 80px;
+    width: 80px;
+    font-size: 75px;
+    text-align: center;
+    color: #b94a03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footimg{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.aorus.com/event/about/aorusverse/assets/images/scene2_poster.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.shade{
+    background-color: rgba(0,0,0,0.5);
+    height: 500px;
+    width: 100%;
+    color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+.shade-text>h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.shade-text>h3{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.shade-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #1c1c1c;
+    color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     font-weight: lighter;
 }
